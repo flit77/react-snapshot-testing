@@ -1,6 +1,6 @@
 # snapshot testing of react components 
 
-original source article is here (https://learnnextjs.comhttps://daveceddia.com/snapshot-testing-react-with-jest/)
+original source article is here (https://daveceddia.com/snapshot-testing-react-with-jest/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
