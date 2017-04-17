@@ -14,3 +14,11 @@ it('should render 2', () => {
   component.getInstance().increment();
   expect(component.toJSON()).toMatchSnapshot();
 });
+
+it('should not go negative', () => {
+  const component = renderer.create(<PositiveCounter/>);
+  component.getInstance().increment();
+  component.getInstance().decrement();
+  component.getInstance().decrement();
+  expect(component.toJSON()).toMatchSnapshot();
+});
